@@ -31,3 +31,15 @@ Children:
       DataType: LocalizedText
       ModellingRule: Optional
       Value: {"LocaleId":"en-US","Text":"Label1"}
+- Name: DateAndTime1
+  Type: ObjectLibraryItem
+  Children:
+  - Name: DateAndTime1
+    Id: g=cd8363e07cb81e1d9e27eccaa3dec03e
+    Supertype: DateTimePicker
+    ReferenceType: HasComponent
+    Children:
+    - Name: Value
+      Type: BaseDataVariableType
+      DataType: DateTime
+      Value: "1601-01-01T00:00:00.0000000"
